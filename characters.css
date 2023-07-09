@@ -1,0 +1,390 @@
+/*		5성		*/
+#야란+label{
+	background: url('character/yelan.webp') no-repeat 0 0px / contain;
+}
+#야란:checked+label{
+	background: url('character/yelan.webp') no-repeat 0 1px / contain;
+}
+#알베도+label{
+	background: url('character/albedo.webp') no-repeat 0 0px / contain;
+}
+#알베도:checked+label{
+	background: url('character/albedo.webp') no-repeat 0 1px / contain;
+}
+#아라타키_이토+label{
+	background: url('character/arataki itto.webp') no-repeat 0 0px / contain;
+}
+#아라타키_이토:checked+label{
+	background: url('character/arataki itto.webp') no-repeat 0 1px / contain;
+}
+#에일로이+label{
+	background: url('character/aloy.webp') no-repeat 0 0px / contain;
+}
+#에일로이:checked+label{
+	background: url('character/aloy.webp') no-repeat 0 1px / contain;
+}
+#다이루크+label{
+	background: url('character/diluc.webp') no-repeat 0 0px / contain;
+}
+#다이루크:checked+label{
+	background: url('character/diluc.webp') no-repeat 0 1px / contain;
+}
+#유라+label{
+	background: url('character/eula.webp') no-repeat 0 0px / contain;
+}
+#유라:checked+label{
+	background: url('character/eula.webp') no-repeat 0 1px / contain;
+}
+#감우+label{
+	background: url('character/ganyu.webp') no-repeat 0 0px / contain;
+}
+#감우:checked+label{
+	background: url('character/ganyu.webp') no-repeat 0 1px / contain;
+}
+#호두+label{
+	background: url('character/hutao.webp') no-repeat 0 0px / contain;
+}
+#호두:checked+label{
+	background: url('character/hutao.webp') no-repeat 0 1px / contain;
+}
+#진+label{
+	background: url('character/jean.webp') no-repeat 0 0px / contain;
+}
+#진:checked+label{
+	background: url('character/jean.webp') no-repeat 0 1px / contain;
+}
+#카에데하라_카즈하+label{
+	background: url('character/kaedehara kazuha.webp') no-repeat 0 0px / contain;
+}
+#카에데하라_카즈하:checked+label{
+	background: url('character/kaedehara kazuha.webp') no-repeat 0 1px / contain;
+}
+#카미사토_아야카+label{
+	background: url('character/kamisato ayaka.webp') no-repeat 0 0px / contain;
+}
+#카미사토_아야카:checked+label{
+	background: url('character/kamisato ayaka.webp') no-repeat 0 1px / contain;
+}
+#카미사토_아야토+label{
+	background: url('character/kamisato ayato.webp') no-repeat 0 0px / contain;
+}
+#카미사토_아야토:checked+label{
+	background: url('character/kamisato ayato.webp') no-repeat 0 1px / contain;
+}
+#각청+label{
+	background: url('character/keqing.webp') no-repeat 0 0px / contain;
+}
+#각청:checked+label{
+	background: url('character/keqing.webp') no-repeat 0 1px / contain;
+}
+#클레+label{
+	background: url('character/klee.webp') no-repeat 0 0px / contain;
+}
+#클레:checked+label{
+	background: url('character/klee.webp') no-repeat 0 1px / contain;
+}
+#모나+label{
+	background: url('character/mona.webp') no-repeat 0 0px / contain;
+}
+#모나:checked+label{
+	background: url('character/mona.webp') no-repeat 0 1px / contain;
+}
+#치치+label{
+	background: url('character/qiqi.webp') no-repeat 0 0px / contain;
+}
+#치치:checked+label{
+	background: url('character/qiqi.webp') no-repeat 0 1px / contain;
+}
+#라이덴_쇼군+label{
+	background: url('character/raiden shougun.webp') no-repeat 0 0px / contain;
+}
+#라이덴_쇼군:checked+label{
+	background: url('character/raiden shougun.webp') no-repeat 0 1px / contain;
+}
+#산고노미야_코코미+label{
+	background: url('character/sangonomiya kokomi.webp') no-repeat 0 0px / contain;
+}
+#산고노미야_코코미:checked+label{
+	background: url('character/sangonomiya kokomi.webp') no-repeat 0 1px / contain;
+}
+#신학+label{
+	background: url('character/shenhe.webp') no-repeat 0 0px / contain;
+}
+#신학:checked+label{
+	background: url('character/shenhe.webp') no-repeat 0 1px / contain;
+}
+#타르탈리아+label{
+	background: url('character/tartaglia.webp') no-repeat 0 0px / contain;
+}
+#타르탈리아:checked+label{
+	background: url('character/tartaglia.webp') no-repeat 0 1px / contain;
+}
+#벤티+label{
+	background: url('character/venti.webp') no-repeat 0 0px / contain;
+}
+#벤티:checked+label{
+	background: url('character/venti.webp') no-repeat 0 1px / contain;
+}
+#소+label{
+	background: url('character/xiao.webp') no-repeat 0 0px / contain;
+}
+#소:checked+label{
+	background: url('character/xiao.webp') no-repeat 0 1px / contain;
+}
+#야에_미코+label{
+	background: url('character/yae miko.webp') no-repeat 0 0px / contain;
+}
+#야에_미코:checked+label{
+	background: url('character/yae miko.webp') no-repeat 0 1px / contain;
+}
+#요이미야+label{
+	background: url('character/yoimiya.webp') no-repeat 0 0px / contain;
+}
+#요이미야:checked+label{
+	background: url('character/yoimiya.webp') no-repeat 0 1px / contain;
+}
+#종려+label{
+	background: url('character/zhongli.webp') no-repeat 0 0px / contain;
+}
+#종려:checked+label{
+	background: url('character/zhongli.webp') no-repeat 0 1px / contain;
+}
+#여행자_바람+label{
+	background: url('character/traveler_anemo.webp') no-repeat 0 0px / contain;
+}
+#여행자_바람:checked+label{
+	background: url('character/traveler_anemo.webp') no-repeat 0 1px / contain;
+}
+#여행자_바위+label{
+	background: url('character/traveler_geo.webp') no-repeat 0 0px / contain;
+}
+#여행자_바위:checked+label{
+	background: url('character/traveler_geo.webp') no-repeat 0 1px / contain;
+}
+#여행자_번개+label{
+	background: url('character/traveler_electro.webp') no-repeat 0 0px / contain;
+}
+#여행자_번개:checked+label{
+	background: url('character/traveler_electro.webp') no-repeat 0 1px / contain;
+}
+#여행자_풀+label{
+	background: url('character/traveler_dendro.webp') no-repeat 0 0px / contain;
+}
+#여행자_풀:checked+label{
+	background: url('character/traveler_dendro.webp') no-repeat 0 1px / contain;
+}
+#타이나리+label{
+	background: url('character/tighnari.webp') no-repeat 0 0px / contain;
+}
+#타이나리:checked+label{
+	background: url('character/tighnari.webp') no-repeat 0 1px / contain;
+}
+#사이노+label{
+	background: url('character/cyno.webp') no-repeat 0 0px / contain;
+}
+#사이노:checked+label{
+	background: url('character/cyno.webp') no-repeat 0 1px / contain;
+}
+#닐루+label{
+	background: url('character/nilou.webp') no-repeat 0 0px / contain;
+}
+#닐루:checked+label{
+	background: url('character/nilou.webp') no-repeat 0 1px / contain;
+}
+#나히다+label{
+	background: url('character/nahida.webp') no-repeat 0 0px / contain;
+}
+#나히다:checked+label{
+	background: url('character/nahida.webp') no-repeat 0 1px / contain;
+}
+#방랑자+label{
+	background: url('character/wanderer.webp') no-repeat 0 0px / contain;
+}
+#방랑자:checked+label{
+	background: url('character/wanderer.webp') no-repeat 0 1px / contain;
+}
+
+
+
+
+/*		4성		*/
+#엠버+label{
+	background: url('character/amber.webp') no-repeat 0 0px / contain;
+}
+#엠버:checked+label{
+	background: url('character/amber.webp') no-repeat 0 1px / contain;
+}
+#바바라+label{
+	background: url('character/barbara.webp') no-repeat 0 0px / contain;
+}
+#바바라:checked+label{
+	background: url('character/barbara.webp') no-repeat 0 1px / contain;
+}
+#북두+label{
+	background: url('character/beidou.webp') no-repeat 0 0px / contain;
+}
+#북두:checked+label{
+	background: url('character/beidou.webp') no-repeat 0 1px / contain;
+}
+#베넷+label{
+	background: url('character/bennett.webp') no-repeat 0 0px / contain;
+}
+#베넷:checked+label{
+	background: url('character/bennett.webp') no-repeat 0 1px / contain;
+}
+#중운+label{
+	background: url('character/chongyun.webp') no-repeat 0 0px / contain;
+}
+#중운:checked+label{
+	background: url('character/chongyun.webp') no-repeat 0 1px / contain;
+}
+#디오나+label{
+	background: url('character/diona.webp') no-repeat 0 0px / contain;
+}
+#디오나:checked+label{
+	background: url('character/diona.webp') no-repeat 0 1px / contain;
+}
+#피슬+label{
+	background: url('character/fischl.webp') no-repeat 0 0px / contain;
+}
+#피슬:checked+label{
+	background: url('character/fischl.webp') no-repeat 0 1px / contain;
+}
+#고로+label{
+	background: url('character/gorou.webp') no-repeat 0 0px / contain;
+}
+#고로:checked+label{
+	background: url('character/gorou.webp') no-repeat 0 1px / contain;
+}
+#케이아+label{
+	background: url('character/kaeya.webp') no-repeat 0 0px / contain;
+}
+#케이아:checked+label{
+	background: url('character/kaeya.webp') no-repeat 0 1px / contain;
+}
+#쿠죠_사라+label{
+	background: url('character/kujou sara.webp') no-repeat 0 0px / contain;
+}
+#쿠죠_사라:checked+label{
+	background: url('character/kujou sara.webp') no-repeat 0 1px / contain;
+}
+#리사+label{
+	background: url('character/Lisa.webp') no-repeat 0 0px / contain;
+}
+#리사:checked+label{
+	background: url('character/Lisa.webp') no-repeat 0 1px / contain;
+}
+#응광+label{
+	background: url('character/Ningguang.webp') no-repeat 0 0px / contain;
+}
+#응광:checked+label{
+	background: url('character/Ningguang.webp') no-repeat 0 1px / contain;
+}
+#노엘+label{
+	background: url('character/noelle.webp') no-repeat 0 0px / contain;
+}
+#노엘:checked+label{
+	background: url('character/noelle.webp') no-repeat 0 1px / contain;
+}
+#레이저+label{
+	background: url('character/razor.webp') no-repeat 0 0px / contain;
+}
+#레이저:checked+label{
+	background: url('character/razor.webp') no-repeat 0 1px / contain;
+}
+#로자리아+label{
+	background: url('character/rosaria.webp') no-repeat 0 0px / contain;
+}
+#로자리아:checked+label{
+	background: url('character/rosaria.webp') no-repeat 0 1px / contain;
+}
+#사유+label{
+	background: url('character/sayu.webp') no-repeat 0 0px / contain;
+}
+#사유:checked+label{
+	background: url('character/sayu.webp') no-repeat 0 1px / contain;
+}
+#설탕+label{
+	background: url('character/sucrose.webp') no-repeat 0 0px / contain;
+}
+#설탕:checked+label{
+	background: url('character/sucrose.webp') no-repeat 0 1px / contain;
+}
+#토마+label{
+	background: url('character/thoma.webp') no-repeat 0 0px / contain;
+}
+#토마:checked+label{
+	background: url('character/thoma.webp') no-repeat 0 1px / contain;
+}
+#향릉+label{
+	background: url('character/xiangling.webp') no-repeat 0 0px / contain;
+}
+#향릉:checked+label{
+	background: url('character/xiangling.webp') no-repeat 0 1px / contain;
+}
+#행추+label{
+	background: url('character/xingqiu.webp') no-repeat 0 0px / contain;
+}
+#행추:checked+label{
+	background: url('character/xingqiu.webp') no-repeat 0 1px / contain;
+}
+#신염+label{
+	background: url('character/xinyan.webp') no-repeat 0 0px / contain;
+}
+#신염:checked+label{
+	background: url('character/xinyan.webp') no-repeat 0 1px / contain;
+}
+#연비+label{
+	background: url('character/yanfei.webp') no-repeat 0 0px / contain;
+}
+#연비:checked+label{
+	background: url('character/yanfei.webp') no-repeat 0 1px / contain;
+}
+#운근+label{
+	background: url('character/yunjin.webp') no-repeat 0 0px / contain;
+}
+#운근:checked+label{
+	background: url('character/yunjin.webp') no-repeat 0 1px / contain;
+}
+#쿠키_시노부+label{
+	background: url('character/kuki shinobu.webp') no-repeat 0 0px / contain;
+}
+#쿠키_시노부:checked+label{
+	background: url('character/kuki shinobu.webp') no-repeat 0 1px / contain;
+}
+#시카노인_헤이조+label{
+	background: url('character/shikanoin heizou.webp') no-repeat 0 0px / contain;
+}
+#시카노인_헤이조:checked+label{
+	background: url('character/shikanoin heizou.webp') no-repeat 0 1px / contain;
+}
+#콜레이+label{
+	background: url('character/collei.webp') no-repeat 0 0px / contain;
+}
+#콜레이:checked+label{
+	background: url('character/collei.webp') no-repeat 0 1px / contain;
+}
+#도리+label{
+	background: url('character/dori.webp') no-repeat 0 0px / contain;
+}
+#도리:checked+label{
+	background: url('character/dori.webp') no-repeat 0 1px / contain;
+}
+#캔디스+label{
+	background: url('character/candace.webp') no-repeat 0 0px / contain;
+}
+#캔디스:checked+label{
+	background: url('character/candace.webp') no-repeat 0 1px / contain;
+}
+#레일라+label{
+	background: url('character/layla.webp') no-repeat 0 0px / contain;
+}
+#레일라:checked+label{
+	background: url('character/layla.webp') no-repeat 0 1px / contain;
+}
+#파루잔+label{
+	background: url('character/faruzan.webp') no-repeat 0 0px / contain;
+}
+#파루잔:checked+label{
+	background: url('character/faruzan.webp') no-repeat 0 1px / contain;
+}

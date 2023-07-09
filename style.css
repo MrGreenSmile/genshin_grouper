@@ -1,0 +1,198 @@
+body::-webkit-scrollbar{
+	background-color: white;
+	width:10px;
+}
+body::-webkit-scrollbar-thumb{
+	background-color: skyblue;
+	border-radius:10px;
+}
+h2{
+	font-family:'Nanum Gothic';
+}
+section{
+	margin-bottom:100px;
+}
+
+input[type="checkbox"]+label{
+	display:inline-block;
+
+	width:80px;
+	height:100px;
+}
+input[type="checkbox"]:checked+label{
+	box-shadow:0px 0px 5px blue;
+	border-radius:5px;
+}
+input[type="checkbox"]{
+	display:none;
+}
+
+
+.titles{
+	font-size:25px;
+	font-weight:bold;
+	display:inline;
+}
+.titles span{
+	margin-left:20px;
+	font-size:18px;
+	cursor:pointer;
+	color:skyblue;
+}
+.resource{
+	font-size:12px;
+	vertical-align:top;
+	margin-top:20px;
+}
+#tutor{
+	position:fixed;
+
+	margin-left:20%;
+	margin-top:20px;
+	padding:30px;
+
+	width:40%;
+	height:auto;
+	border-radius:10px;
+	background-color:skyblue;
+	cursor:default;
+}
+#closer{
+	float:right;
+	margin-left:20px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	margin-bottom:50px;
+	font-size:22px;
+}
+#tutorNavi{
+	display:flex;
+	margin-top:10px;
+	font-size:17px;
+	font-weight:bold;
+}
+#tutorNavi div{
+	width:100%;
+	border:1px solid skyblue;
+	cursor:pointer;
+	text-align:center;
+	background-color:white;
+	color:skyblue;
+}
+#tutorNavi span{
+	white-space:pre;
+}
+#nav1{
+	border-top-left-radius:5px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:0px;
+	border-right:0px solid skyblue;
+}
+#nav3{
+	border-top-left-radius:0px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:5px;
+	border-left:0px solid skyblue;
+}
+#howto{
+	margin-top:20px;
+	text-indent:5px;
+	color:white;
+
+	height:500px;
+	overflow-y:scroll;
+}
+#howto::-webkit-scrollbar{
+	background-color: skyblue;
+	width:10px;
+}
+#howto::-webkit-scrollbar-thumb{
+	background-color: white;
+	border-radius:10px;
+}
+#howto p{
+	margin-top:25px;
+}
+#howto a{
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+}
+.versioned{
+	text-indent:-15px;
+	margin-left:45px;
+}
+
+
+.sorterbtn{
+	float:right;
+	width:100px;
+	height:30px;
+	border:2px solid skyblue;
+	background-color:white;
+	color:skyblue;
+	font-size:15px;
+	font-weight:bold;
+}
+.sorterbtnR{
+	border-left:1px solid skyblue;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.sorterbtnL{
+	border-right:1px solid skyblue;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+
+.yours{
+	display:inline-block;
+	width:100px;
+}
+
+#yours{
+	margin-left:50px;
+	margin-top:20px;
+}
+#youcan img{
+	width:25%;
+	max-width:100px;
+	margin-right:-5px;
+}
+#youmight img{
+	width:25%;
+	max-width:100px;
+	margin-right:-5px;
+}
+#funny img{
+	width:25%;
+	max-width:100px;
+	margin-right:-5px;
+}
+
+#reload_btn{
+	width:100px;
+	height:40px;
+	position:absolute;
+	right:100px;
+
+	background-color:white;
+	border:5px solid skyblue;
+	border-radius:10px;
+	font-size:15px;
+	font-weight:bold;
+	color:skyblue;
+	cursor:pointer;
+}
+#totop{
+	position:fixed;
+	right:0;
+	bottom:60px;
+}

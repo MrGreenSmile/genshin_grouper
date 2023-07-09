@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='style.css'>
+	<link rel='stylesheet' href='characters.css'>
+	<link rel='shortcut icon' href='genshin.ico'>
+	<script src="characters.js"></script>
+	<script src="frame.js"></script>
+
+	<title>Genshin Grouper</title>
+</head>
+<body>
+	<div id="top">
+		<span class="titles">Genshin Grouper
+			<span id="tutorial" onclick="tutorial();">안내</span>
+		</span>
+	</div>
+	<div id="tutor" style="display:none;">
+		<div id="closer" onclick="closer()">ⓧ</div>
+		<div id="tutorNavi">
+			<div id="nav1" onclick="tutorNavi('summary')"><span>개요</span></div>
+			<div id="nav2" onclick="tutorNavi('usage')"><span>사용법</span></div>
+			<div id="nav3" onclick="tutorNavi('version')"><span>버전정보</span></div>
+		</div>
+		<div id="howto">
+			<p>
+				겐신 조합을 맞춰드립니다.
+			</p>
+			<p>
+				먼저 주의해주시길, 조합 또는 정보가 부족하거나 오류가 있을 수도 있으니 참고용으로만 봐쥬시길 부탁드립니다.
+			</p>
+			<p>
+				나오는 조합들은 효율이 나올 수 있는 최소한의 조합에 대해 다루고 있으며, 최고수준의 조합은 아닐 수 있습니다.
+			</p>
+			<span class="resource">이미지 출처 : Honey Hunter World</span>
+		</div>
+	</div>
+	<!--
+		이미지 출처 : Honey Hunter World
+		https://genshin.honeyhunterworld.com/?lang=EN
+	-->
+	<div id='CharacterList'></div>
+		<script>
+			createCharacterList()
+		</script>
+
+	<section>
+		<h2>선택된 조합</h2>
+		<div id='yours'></div>
+		<h2>가능한 조합</h2>
+		<div id='youcan'>
+			<div id='youcan_car'></div>
+		</div>
+		<h2>부족한 조합</h2>
+		<div id='youmight'>
+			<div id='youmight_car'></div>
+		</div>
+
+		<script src="algorithm.js"></script>
+	</section>
+
+	<div id="totop">
+		<button id="reload_btn" onclick="cleaner()">초기화</button>
+	</div>
+</body>
+</html>

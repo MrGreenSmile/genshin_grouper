@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='shortcut icon' href='../genshin.ico'>
+	<link rel='stylesheet' href='detail.css'>
+	<script src="detail.js"></script>
+	<script src="../characters.js"></script>
+
+	<title id="html-title"></title>
+</head>
+<body>
+	<h2 id="group-title"></h2>
+	<div id="tutor" style="display:none;">
+		<div id="closer" onclick="closer()">ⓧ</div>
+		<div id="howto">
+			<p>
+				각각의 조합들에 대해 다룹니다.
+			</p>
+			<p>
+				조합의 컨셉, 특징과 세팅에 대해 다루고 있으며, 자세한 수치에 대해선 다루지 않았습니다.
+			</p>
+			<p>
+				만약 각 캐릭터의 권장 세팅을 알아보고 싶다면, 캐릭터 이미지를 터치(클릭)해 개별 캐릭터 설명 페이지로 넘어갑니다.
+			</p>
+			<p>
+				오류 및 제보는 <a href="https://blog.naver.com/kingjw578/222722216854" target="_blank">여기에</a>
+			</p>
+			<span class="resource">이미지 출처 : Honey Hunter World</span>
+		</div>
+	</div>
+	<div id="group"></div>
+	<div id="container"></div>
+	<div id="totop">
+		<button class="reload_btn" onclick="toMain()">메인으로</button>
+		<button class="reload_btn" onclick="toTop()">맨 위로</button>
+	</div>
+
+	<script src="frame-group.js"></script>
+	<script src="detail-group.js"></script>
+</body>
+</html>
